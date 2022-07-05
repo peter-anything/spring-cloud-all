@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  eurake1:
+    image: eurake-server-peter:latest
+    ports:
+      - '12181:2181'
+  eurake2:
+    image: eurake-server-peter:latest
+    ports:
+      - '12181:2181'
+  eurake3:
+    image: eurake-server-peter:latest
+    ports:
+      - '12181:2181'
